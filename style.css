@@ -14,8 +14,9 @@
 
 body{
     background: var(--preta);
-    font-family: 'Arial', Times, serif;
-    color: white;
+    font-family:'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: #fff;
 }
 
 header .container{
@@ -25,17 +26,18 @@ header .container{
     justify-content: space-between;
 }
 
-header .logo{
-    margin-left: 6px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times, serif;
-    font-size: 40px;
+.logo{
+    margin: 1rem 2rem;
+}
+
+.logo img{
+    width: 10rem;
 }
 
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 header nav a:hover{
@@ -46,7 +48,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 17px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('img/imagem-fundo-spn.jpg');
+    background: url('https://occ-0-1302-3852.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVwgJdu5z-L9EtyxmMFsrTnSVawDLlCV7TVbbnUwDDgm2oKoGFDkc-cVoNokvl9dAKq_EwVJSutyloyZOmKT4Tln3pP-.webp?r=ba2');
     height: 550px;
     background-size:cover;
 
@@ -54,12 +56,7 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
-
-.carrossel-filmes{
-    background: url('img/fundo-spn.jpg');
-    height: 400px;
-}
+}  
 
 .filme-principal .descricao{
     margin-top: 10px;
@@ -76,7 +73,7 @@ header nav a:hover{
     width: 40%;
 }
 
-.botao{
+.botao1, .botao2{
     background-color: rgba(0,0,0,.50);
     border: none;
     color: white;
@@ -90,12 +87,17 @@ header nav a:hover{
 
 }
 
-.botao:hover{
+.botao1:hover{
     background-color: white;
     color: black;
 }
 
-.botao i{
+.botao2:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao1, .botao2 i{
     margin-right: 10px;
 }
 
