@@ -1,6 +1,6 @@
 # Hey, how's it going? This is my project 'Cloning the Netflix interface'! 🙃
 
-### Projeto feito em HTML, CSS3 e Javascript, utilizando Owl Carousel 2.
+### Project made in HTML, CSS3 and Javascript, using Owl Carousel 2.
 
 ## Desktop view 
 ![Screenshot Desktop](/readme.image/main-movienetflix.png)
