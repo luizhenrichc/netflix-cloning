@@ -1,18 +1,53 @@
-@media screen and (max-width:700px){
-    header .container{
+
+@media screen and (max-width: 768px){
+    header .nav-menu{
+        font-size: 1rem;
+    }
+    .movie-content{
+        width: 70%;
+    }
+    .mobile-menu{
         display: flex;
-        flex-direction: column;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .play, .more-info{
+        display: flex;
+        float: left;
+        align-items: center;
+        margin-top: 6px;
     }
 
-    .botao{
+}
+
+@media screen and (max-width: 600px){
+    header .container{
+        display: flex;
+    }
+    .buttons{
         margin-top: 5px;
         width: 300px;
         height: 60px;
     }
 }
 
-@media screen and(min-width:1000px){
-    .descricao{
-        width: 50%;
+@media screen and (max-width: 500px){
+    .movie-content{
+        width: 80%;
+    }
+    .logo img{
+        display: none;
+    }
+    .n-logo{
+        display: flex;
+    }
+    .n-logo img{
+        width: 1.6rem;
+    }
+    .buttons{
+        margin-top: 5px;
+        width: 300px;
+        height: 60px;
     }
 }
